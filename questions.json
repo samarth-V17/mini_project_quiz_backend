@@ -1,0 +1,12 @@
+[
+  {
+    "question": "name of city",
+    "options": [
+      "meerut",
+      "noida",
+      "delhi",
+      "ghaziabad"
+    ],
+    "correct": 0
+  }
+]
