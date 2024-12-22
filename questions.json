@@ -1,11 +1,51 @@
 [
   {
-    "question": "name of city",
+    "question": "What does IP stand for in networking?",
     "options": [
-      "meerut",
-      "noida",
-      "delhi",
-      "ghaziabad"
+      "Internet Protocol",
+      "Internet Parcel",
+      "Internet Package",
+      "None"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which one represent the LBA?",
+    "options": [
+      "1.1.1.1",
+      "255.255.255.255",
+      "127.123.11.11",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Full form of FTP is",
+    "options": [
+      "Full Text Package",
+      "Full Track Package",
+      "File and Text Protocol",
+      "File Transfer Protocol"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is the broadcast address of 192.128.1.0/24",
+    "options": [
+      "1.1.1.1",
+      "192.128.1.0",
+      "192.128.1.255",
+      "None"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which is the subnet mask of class C?",
+    "options": [
+      "255.255.255.0",
+      "255.255.0.0",
+      "255.0.0.0",
+      "0.0.0.0"
     ],
     "correct": 0
   }

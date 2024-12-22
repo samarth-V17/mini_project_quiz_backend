@@ -75,6 +75,24 @@ app.post('/save-score', (req, res) => {
     });
   });
   
+
+
+// GET endpoint to fetch results from results.json
+app.get('/get-results', (req, res) => {
+  // Read the 'results.json' file
+  const filePath = path.join(__dirname, 'results.json');
+
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      // If error occurs, return a 500 server error
+      return res.status(500).json({ message: 'Error reading results file', error: err });
+    }
+
+    // Parse and send the results in raw JSON format
+    res.header('Content-Type', 'application/json');
+    res.send(data);
+  });
+});
   
 
 // Start the server
